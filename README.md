@@ -2,6 +2,7 @@
 digit Recognition
 
  #p = sns.heatmap(np.reshape(X[idx], (28,28)), cmap=plt.cm.gray, 
+ \
  p = sns.heatmap(np.array(X.loc[idx]).reshape(28,28), cmap=plt.cm.gray,
            
 -------------------
